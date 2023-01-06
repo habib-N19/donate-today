@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    border: 1px solid red;
 
 }
 
@@ -25,7 +26,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: 95vh;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -46,7 +47,59 @@
 .donate-option {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     width: 50%;
     margin: 0 auto;
+    height: 95vh;
+}
+
+
+
+/* donate card container section */
+.donate-plan-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    height: 95vh;
+}
+
+.donate-card-container {
+
+    display: flex;
+    margin: 0 auto;
+    /* align-items: baseline; */
+    text-align: left;
+}
+
+
+
+/* article container section */
+.article-container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.article-area {
+    display: flex;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 20px;
+
+
+}
+
+.article-summary {
+    width: ;
+}
+
+.article-image {
+    padding: 20px;
+}
+
+.article-image img {
+    width: 75%;
 }
